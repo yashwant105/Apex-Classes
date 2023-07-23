@@ -1,0 +1,23 @@
+Q. 1) What is Apex Class ?
+ANS) It helps to design logical system in Salesforce Lightening Web Components.
+
+Q. 2) The types of Apex Class are ?
+ANS) a. Generic (integer, string, double, boolen, long, etc)
+     b. SObject (Custome Object and Standerd Object)
+        ex: Custome Object like (Student__C)
+            Standerd Object like (Account, Contact, Opportunities etc)
+     c. Collection : 1. List (ex: List <integer>, List <String>, List <Student__C>, List <Account>, List <Contact>, List <Opportunities> etc)
+                     2. Set (ex : Set <integer>, Set <String>, Set <Student__C>, Set <Account>, Set <Contact>, Set <Opportunities> etc)
+                     3. Map - Key and Values (ex : Key means Biscuit, values means Goodday,sunfest,2020 etc)
+                              In Map we can also use mix combination, (ex: 2 datatypes can be mix)
+                              (ex : Map <Account, Student__C> [Standert Object & Custome Object])
+                        Note : Sometimes Map function become more complex
+
+Q. 3) What is the difference between List, Set & Map ?
+     2) Set - it does not allows duplicates, 
+     3) Map - Key & Values pair, Key allows unique values, Values can be dublicate but key will not be duplicate (ex : Biscuit=Goodday, Goodday, Gooday)
+
+Q. 4) When to use void or not void ?
+ANS) There are 2 types of voids.
+     1. Void - It returns null
+     2. Non Void - It returns (ex : integer, string, list <Account>, Map <Account, Student__C> )
